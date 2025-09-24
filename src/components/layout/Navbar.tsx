@@ -1,0 +1,21 @@
+import React from 'react'
+import Mainbutton from './Mainbutton'
+
+function Navbar() {
+  return (
+    <>
+      <div className="sticky top-8 flex flex-row h-20 mb-8 mx-8 sm:mx-24 justify-center min-w-[280px] sm:justify-between items-center px-16 py-4 bg-[#0d052f54] rounded-2xl backdrop-blur-md border-1 border-[#ffffff3c] ">
+   
+        <h1 className="text-white text-3xl md:text-4xl lg:text-4xl xl:text-5xl font font-bold font-[pixelify_sans] [text-shadow:_3px_7px_0px_rgb(0_0_0_/_0.44)]">
+        DEERTOBER
+        </h1>
+        <div className='hidden sm:block'>
+          <Mainbutton children = "START"/>
+        </div>
+        
+      </div>
+    </>
+  )
+}
+
+export default Navbar

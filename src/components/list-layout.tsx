@@ -19,9 +19,9 @@ type Props = {
 
 const ListLayout = ({ list }: Props) => {
     return (
-        <div className="flex-1 min-w-0 ps-0 lg:ps-10 mt-6 lg:mt-0">
+        <div className="flex-1 ps-0 lg:ps-10 mt-6 lg:mt-0 max-w-80">
             <h2 className="text-2xl lg:text-3xl mb-2">{list.title}</h2>
-            <DottedLine className="w-[90%] h-1.5" />
+            <DottedLine className="w-[90%]" />
             <ul className="list-disc pt-4 space-y-2">
                 {list.links.map((element) => {
                     const isExternal = element.link.startsWith("http")
@@ -32,14 +32,14 @@ const ListLayout = ({ list }: Props) => {
                                     href={element.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="underline text-lg lg:text-2xl"
+                                    className="underline text-xl lg:text-2xl"
                                 >
                                     {element.linkText}
                                 </a>
                             ) : (
                                 <Link
                                     href={element.link}
-                                    className="underline text-lg lg:text-2xl"
+                                    className="underline text-xl lg:text-2xl"
                                 >
                                     {element.linkText}
                                 </Link>

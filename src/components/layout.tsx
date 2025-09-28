@@ -16,7 +16,7 @@ interface LayoutProps {
 
 const Layout = ({ handleClick, isActive, turn, setTurn, data }: LayoutProps) => {
     return (
-        <div className="max-w-6xl mx-auto flex flex-col gap-14 w-full">
+        <div className="max-w-7xl mx-auto flex flex-col gap-14 w-full">
             {data.map((element, i) => (
                 <div className="w-full" key={i}>
                     <Accordion

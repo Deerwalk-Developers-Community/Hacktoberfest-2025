@@ -35,10 +35,10 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
             onClick={toggelAccordion}
             className="flex flex-col items-center justify-center w-full px-2  lg:text-base">
             <button className={`bg-transparent px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
-                <div className='py-3'>
+                <div className=''>
 
                     <div className="flex items-center justify-between text-left gap-4">
-                        <span className="ml-2 lg:font-semibold lg:text-4xl text-2xl">
+                        <span className="lg:font-semibold lg:text-4xl pb-3 ml-2 text-3xl font-bold">
                             {question}
                         </span>
                         <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center">
@@ -55,7 +55,7 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
                         </p>
 
                     </div>
-                    <hr className='pt-2' />
+                    <hr />
                 </div>
 
             </button>

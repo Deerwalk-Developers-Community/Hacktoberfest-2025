@@ -7,11 +7,11 @@ const reqColumns = [
         idx: 1,
         title: "SHARE",
         links: [
-            { linkText: "X (Twitter)", link: "https://www.twitter.com" },
-            { linkText: "Facebook", link: "https://www.facebook.com" },
-            { linkText: "LinkedIn", link: "https://www.linkedin.com" },
-            { linkText: "Hacker News", link: "https://news.ycombinator.com" },
-            { linkText: "Reddit", link: "https://www.reddit.com" },
+            { linkText: "X (Twitter)", link: "https://twitter.com/share?url=https%3A%2F%2Fhacktoberfest.com&text=Spread%20the%20love%20for%20open%20source%20with%20%23Hacktoberfest%2C%20a%20month-long%20celebration%20of%20open-source%20projects%2C%20their%20maintainers%2C%20and%20the%20entire%20community%20of%20contributors." },
+            { linkText: "Facebook", link: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhacktoberfest.com" },
+            { linkText: "LinkedIn", link: "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fhacktoberfest.com" },
+            { linkText: "Hacker News", link: "https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fhacktoberfest.com&t=Hacktoberfest%202025" },
+            { linkText: "Reddit", link: "https://www.reddit.com/submit?url=https%3A%2F%2Fhacktoberfest.com&title=Hacktoberfest%202025" },
         ],
     },
     {
@@ -24,26 +24,18 @@ const reqColumns = [
             { linkText: "Email", link: "mailto:example@gmail.com" },
         ],
     },
-    {
-        idx: 3,
-        title: "LEGAL",
-        links: [
-            { linkText: "Terms", link: "#" },
-            { linkText: "Privacy", link: "#" },
-            { linkText: "Brand Guideline", link: "#" },
-        ],
-    },
+
 ]
 
 const Footer = () => {
     return (
-        <div className="bg-[#30226B] flex flex-col lg:flex-row py-20 px-10 lg:px-20 w-full justify-between">
+        <div className="bg-[#30226B] flex flex-col lg:flex-row py-20 px-10 lg:px-20 w-full justify-around">
             <Card
                 title="HACKTOBER FEST 2025"
                 body="&copy; 2024 DEERWALK DEVELOPERS COMMUNITY. ALL RIGHTS RESERVED"
                 buttonText="REGISTER"
             />
-            <div className="flex flex-col lg:flex-row lg:w-[70%] justify-between ms-10 lg:ms-60 lg:me-40 mt-10 lg:mt-10 lg:px-20">
+            <div className="flex flex-col lg:flex-row md:flex-row ms-10 lg:ms-60 lg:me-40 mt-10 lg:mt-10 lg:px-20">
                 {reqColumns.map((item, i) => (
                     <ListLayout key={i} list={item} />
                 ))}

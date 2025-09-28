@@ -62,3 +62,38 @@ export const pixelifySansBold = localFont({
   fallback: ["system-ui", "arial"],
   preload: true,
 });
+
+export const spaceGroteskLight = localFont({
+  src: "../assets/fonts/space_grotesk/SpaceGrotesk-Light.woff2",
+  variable: "--font-spacegrotesk-light",
+  fallback: ["system-ui", "arial"],
+  preload: true,
+});
+
+export const spaceGroteskRegular = localFont({
+  src: "../assets/fonts/space_grotesk/SpaceGrotesk-Regular.woff2",
+  variable: "--font-spacegrotesk-regular",
+  fallback: ["system-ui", "arial"],
+  preload: true,
+});
+
+export const spaceGroteskMedium = localFont({
+  src: "../assets/fonts/space_grotesk/SpaceGrotesk-Medium.woff2",
+  variable: "--font-spacegrotesk-medium",
+  fallback: ["system-ui", "arial"],
+  preload: true,
+});
+
+export const spaceGroteskSemiBold = localFont({
+  src: "../assets/fonts/space_grotesk/SpaceGrotesk-SemiBold.woff2",
+  variable: "--font-spacegrotesk-semibold",
+  fallback: ["system-ui", "arial"],
+  preload: true,
+});
+
+export const spaceGroteskBold = localFont({
+  src: "../assets/fonts/space_grotesk/SpaceGrotesk-Bold.woff2",
+  variable: "--font-spacegrotesk-bold",
+  fallback: ["system-ui", "arial"],
+  preload: true,
+});

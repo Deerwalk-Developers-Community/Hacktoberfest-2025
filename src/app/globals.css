@@ -21,6 +21,12 @@
   --font-pixelifysans-medium: var(--font-pixelifysans-medium);
   --font-pixelifysans-semibold: var(--font-pixelifysans-semibold);
   --font-pixelifysans-bold: var(--font-pixelifysans-bold);
+
+  --font-spacegrotesk-light: var(--font-spacegrotesk-light);
+  --font-spacegrotesk-regular: var(--font-spacegrotesk-regular);
+  --font-spacegrotesk-medium: var(--font-spacegrotesk-medium);
+  --font-spacegrotesk-semibold: var(--font-spacegrotesk-semibold);
+  --font-spacegrotesk-bold: var(--font-spacegrotesk-bold);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -60,13 +60,13 @@ export default function Resources() {
             <section key={idx} className="">
               <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                 {section.icon}
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-tektur">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-orbitron-regular">
                   {section.title}
                 </h2>
               </div>
 
               <div className="ml-14 lg:w-276">
-                <ul className="list-disc list-inside text-[#79C645] space-y-1 sm:space-y-2 text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-grotesk ">
+                <ul className="list-disc list-inside text-[#79C645] space-y-1 sm:space-y-2 text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-spacegrotesk-regular ">
                   {section.links.map((link, i) => (
                     <li key={i} className="leading-none">
                       <a

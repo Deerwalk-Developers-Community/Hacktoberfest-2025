@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
+import { orbitronRegular, pixelifySansRegular, spaceGroteskRegular } from "./utils/fonts";
 
 // Google Fonts
 const geistSans = Geist({
@@ -12,22 +12,6 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
-
-// Local Font
-const orbitron = localFont({
-  src: "/fonts/Orbitron-Regular.ttf", 
-  variable: "--font-orbitron",
-});
-
-const grotesk = localFont({
-  src: "/fonts/SpaceGrotesk-Regular.ttf",
-  variable: "--font-grotesk",
-});
-
-const tektur = localFont({
-  src:"/fonts/Tektur-Bold.ttf",
-  variable: "--font-Tektur",
 });
 
 
@@ -44,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${orbitron.variable} ${grotesk.variable} ${tektur.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${orbitronRegular.variable} ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable} antialiased`}
       >
         {children}
       </body>

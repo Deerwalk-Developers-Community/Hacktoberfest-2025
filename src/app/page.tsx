@@ -1,4 +1,5 @@
 import Mainbutton from "@/components/layout/Mainbutton";
+import TextBox from "@/components/layout/TextBox";
 import React from "react";
 
 export default function Home() {
@@ -13,10 +14,20 @@ export default function Home() {
 
         <img src="/svg/ddc_logo.svg" alt="Deer Logo" className="h-20 sm:h-22" />
 
-        <div className="font-bold text-center text-white text-xl sm:text-2xl font-[space_grotesk]">Hacktoberfest Registration is Open Now !</div>
+        <div className="font-bold text-center text-white text-xl sm:text-3xl font-[space_grotesk]">Hacktoberfest Registration is Open Now !</div>
 
         <Mainbutton children="REGISTER"/>
       </div>
+
+      <TextBox
+        title="Deertober25"
+        description={
+          <div>
+            <p>This year marks the 8th anniversary of DDC, and we're calling on your support!</p>
+            <p>Whether it's your first time participating or you have previously participated, it's almost time to hack out four pristine pull /merge requests as we continue our month of support for open source.</p>
+          </div>
+        }
+      />
     </>
   );
 }

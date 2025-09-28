@@ -23,7 +23,8 @@ const config: Config = {
       },
       backgroundImage: {
         'navgradient': 'linear-gradient(to right, #202040, #1C1C3D)',
-        'background_gradient': 'linear-gradient(0deg, #532874 0%, #131228 45%, #0B0622 100%)'
+        'background_gradient': 'linear-gradient(0deg, #532874 0%, #131228 45%, #0B0622 100%)',
+        'textbox': 'var(--textbox_bg)'
       },
       fontFamily: {
         'space_grotesk': ['var(--font-space_grotesk)', 'sans-serif'],

@@ -18,10 +18,12 @@ const pixelifySans = Pixelify_Sans({
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   return (
     <html lang='en'>
-      <body className={`${spaceGrotesk.variable} ${orbitron.variable} ${pixelifySans.variable}`}>
+      <body className={`${spaceGrotesk.variable} ${orbitron.variable} ${pixelifySans.variable} overflow-x-hidden` }>
         <Navbar/>
-        <img className="absolute -top-20 -left-40 -z-999 h-100 w-100" src={'/svg/pixelcircle.svg'}></img>
-        <img className="absolute top-80 -right-40 -z-999 h-100 w-100" src={'/svg/pixelcircle.svg'}></img>
+        <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">
+          <img className="hidden md:block absolute -top-20 -left-20 h-96 w-96 " src={'/svg/pixelcircle.svg'} alt="decoration"></img>
+          <img className="hidden md:block absolute top-80 -right-40 h-96 w-96 " src={'/svg/pixelcircle.svg'} alt="decoration"></img>
+        </div>
         {children}
       </body>
     </html>

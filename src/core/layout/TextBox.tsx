@@ -27,8 +27,8 @@ function TextBox({ title, description }: TextBoxProps) {
             style={{ filter: 'var(--glow-filter)' }} 
             alt="top right frame border" 
         />
-        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>{title}</h1>
-        <div className='text-lg'>
+        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-orbitron-regular'>{title}</h1>
+        <div className='text-lg font-spacegrotesk-regular'>
             {description}
         </div>
     </div>

@@ -1,11 +1,11 @@
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
+import Navbar from "@/core/layout/Navbar";
 import { orbitronRegular, pixelifySansRegular , spaceGroteskRegular} from "./utils/fonts";
 
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   return (
     <html lang='en'>
-      <body className={`${orbitronRegular.variable} ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable} overflow-x-hidden` }>
+      <body className={`${orbitronRegular.variable} ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable} overflow-x-hidden gradient-bg` }>
       <div className="flex flex-col mx-4 sm:mx-8 md:mx-24">
         <Navbar/>
         <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">

@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: linear-gradient(180deg,#1C1C3D, #202040);
-  --textbox_bg: linear-gradient(0deg, #29296230, #13122837);
-  --glow-filter : drop-shadow(0 0 5px #ffffff1c) drop-shadow(0 0 10px #ffffff1c);
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
+
 }
 
 @theme inline {
@@ -35,12 +30,12 @@
   --font-spacegrotesk-bold: var(--font-spacegrotesk-bold);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
@@ -50,7 +45,6 @@ body {
 }
 
 h1 {
-  font-family: var(--font-orbitron);
   text-shadow: 0 0 5px #ffffff3d, 0 0 10px #ffffff3d, 0 0 15px #ffffff3d;
 }
 
@@ -62,4 +56,18 @@ p {
 }
 .textbox-bg{
   background: var(--textbox_bg);
+}
+.gradient-bg {
+  background: linear-gradient(
+  to bottom,           
+  #31216D 0%,
+  #16162D 52%,
+  #16162D 100%
+);
+}
+.textbox-bg{
+  background:linear-gradient(0deg, #29296230, #13122837);
+}
+.bg-glow{
+  filter : drop-shadow(0 0 5px #ffffff1c) drop-shadow(0 0 10px #ffffff1c);
 }

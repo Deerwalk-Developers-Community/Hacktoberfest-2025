@@ -5,12 +5,13 @@
 
 :root {
   --background: linear-gradient(180deg,#1C1C3D, #202040);
-  --textbox_bg: linear-gradient(135deg, #29296230, #13122837);
+  --textbox_bg: linear-gradient(0deg, #29296230, #13122837);
   --foreground: #ffffff;
   --font-pixelify: "Pixelify Sans", cursive;
   --font-orbitron: "Orbitron", monospace;
   --font-spacegtk: "Space Grotesk", sans-serif;
   --glow-filter : drop-shadow(0 0 5px #ffffff1c) drop-shadow(0 0 10px #ffffff1c);
+  
 }
 
 body {
@@ -27,6 +28,10 @@ h1 {
 
 p {
   font-family: var(--font-spacegtk);
-
 }
-
+.bg-glow{
+  filter: var(--glow-filter);
+}
+.textbox-bg{
+  background: var(--textbox_bg);
+}

@@ -8,9 +8,7 @@ interface TextBoxProps{
 function TextBox({ title, description }: TextBoxProps) {
   return (
     <div 
-        className='relative flex flex-col gap-7 mx-24 lg:mx-42 2xl:mx-auto my-30 px-28 py-27.5 bg-textbox text-justify'
-        style={{ background: 'var(--textbox_bg)' }}
-    >
+        className='relative mx-5 sm:mx-18 flex flex-col gap-7 lg:mx-24 xl:max-w-560 my-30 px-10 sm:px-18 py-27.5 bg-textbox text-justify textbox-bg'>
         <img 
             src='/svg/bottom_left.svg' 
             className='absolute -bottom-6 -left-6' 
@@ -29,8 +27,8 @@ function TextBox({ title, description }: TextBoxProps) {
             style={{ filter: 'var(--glow-filter)' }} 
             alt="top right frame border" 
         />
-        <h1 className='text-4xl'>{title}</h1>
-        <div>
+        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>{title}</h1>
+        <div className='text-lg'>
             {description}
         </div>
     </div>

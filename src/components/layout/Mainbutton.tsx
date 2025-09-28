@@ -10,7 +10,7 @@ interface NavbuttonProps {
 
 function Mainbutton({ children, onClick }: NavbuttonProps) {
   return (
-    <button className="relative flex items-center justify-between font-[pixelify_sans] w-32 h-12 p-4 gap-2 -z-10" onClick={onClick}>
+    <button className="relative flex items-center justify-between font-pixelifysans-regular w-32 h-12 p-4 gap-2 -z-10" onClick={onClick}>
         <Image
             src="/svg/Buttonborder.svg"
             alt="Button border"

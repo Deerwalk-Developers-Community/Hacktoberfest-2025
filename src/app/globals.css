@@ -6,12 +6,40 @@
 :root {
   --background: linear-gradient(180deg,#1C1C3D, #202040);
   --textbox_bg: linear-gradient(0deg, #29296230, #13122837);
-  --foreground: #ffffff;
-  --font-pixelify: "Pixelify Sans", cursive;
-  --font-orbitron: "Orbitron", monospace;
-  --font-spacegtk: "Space Grotesk", sans-serif;
   --glow-filter : drop-shadow(0 0 5px #ffffff1c) drop-shadow(0 0 10px #ffffff1c);
-  
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --font-orbitron-regular: var(--font-orbitron-regular);
+  --font-orbitron-medium: var(--font-orbitron-medium);
+  --font-orbitron-bold: var(--font-orbitron-bold);
+  --font-orbitron-extrabold: var(--font-orbitron-extrabold);
+  --font-orbitron-black: var(--font-orbitron-black);
+
+  --font-pixelifysans-regular: var(--font-pixelifysans-regular);
+  --font-pixelifysans-medium: var(--font-pixelifysans-medium);
+  --font-pixelifysans-semibold: var(--font-pixelifysans-semibold);
+  --font-pixelifysans-bold: var(--font-pixelifysans-bold);
+
+  --font-spacegrotesk-light: var(--font-spacegrotesk-light);
+  --font-spacegrotesk-regular: var(--font-spacegrotesk-regular);
+  --font-spacegrotesk-medium: var(--font-spacegrotesk-medium);
+  --font-spacegrotesk-semibold: var(--font-spacegrotesk-semibold);
+  --font-spacegrotesk-bold: var(--font-spacegrotesk-bold);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
 }
 
 body {

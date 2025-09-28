@@ -1,24 +1,11 @@
+import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
-import {Space_Grotesk, Orbitron, Pixelify_Sans} from 'next/font/google'
-import "../app/globals.css";
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'], 
-  variable: "--font-space_grotesk"
-})
-const orbitron = Orbitron({
-  subsets:['latin'],
-  variable:"--font-orbitron"
-})
-const pixelifySans = Pixelify_Sans({
-  subsets:['latin'], 
-  variable: '--font-pixelify_sans'
-})
+import { orbitronRegular, pixelifySansRegular , spaceGroteskRegular} from "./utils/fonts";
 
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   return (
     <html lang='en'>
-      <body className={`${spaceGrotesk.variable} ${orbitron.variable} ${pixelifySans.variable} overflow-x-hidden` }>
+      <body className={`${orbitronRegular.variable} ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable} overflow-x-hidden` }>
       <div className="flex flex-col mx-4 sm:mx-8 md:mx-24">
         <Navbar/>
         <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">

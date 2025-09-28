@@ -9,8 +9,8 @@ function Navbar() {
         <div className="text-white text-3xl md:text-4xl lg:text-4xl xl:text-5xl font font-bold font-pixelifysans-regular [text-shadow:_3px_7px_0px_rgb(0_0_0_/_0.44)]">
         DEERTOBER
         </div>
-        <div className='hidden sm:block'>
-          <Mainbutton children = "START"/>
+        <div className='hidden sm:block cursor-pointer'>
+          <Mainbutton text = "START"/>
         </div>
         
       </div>

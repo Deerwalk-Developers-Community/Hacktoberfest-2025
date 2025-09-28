@@ -4,13 +4,13 @@ import React from 'react'
 import Image from 'next/image'
 
 interface NavbuttonProps {
-    children : React.ReactNode;
+    text ?: string;
     onClick?: () => void;
 }
 
-function Mainbutton({ children, onClick }: NavbuttonProps) {
+function Mainbutton({ text, onClick }: NavbuttonProps) {
   return (
-    <button className="relative flex items-center justify-between font-pixelifysans-regular w-32 h-12 p-4 gap-2 -z-10" onClick={onClick}>
+    <button className="relative flex items-center justify-between font-pixelifysans-regular w-32 h-12 p-4 gap-2 z-10 cursor-pointer" onClick={onClick}>
         <Image
             src="/svg/Buttonborder.svg"
             alt="Button border"
@@ -24,7 +24,7 @@ function Mainbutton({ children, onClick }: NavbuttonProps) {
             height={20}
             className='object-contain'
         />
-        <div className='text-white'>{children}</div>
+        <div className='text-white'>{text}</div>
     </button>
   )
 }

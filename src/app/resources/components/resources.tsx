@@ -41,12 +41,12 @@ const resourceSections = [
 
 export default function Resources() {
   return (
-    <div className="relative w-full text-white py-8 sm:py-12 lg:py-20 px-8 flex flex-col items-center justify-center bg-gradient min-h-screen overflow-hidden">
-      <div className="absolute top-[-60] left-0 hidden lg:block md:block">
+    <div className="relative w-full text-white py-8 sm:py-12 lg:py-20 px-8 flex flex-col items-center justify-center  min-h-screen overflow-hidden">
+      <div className="absolute top-[-60] left-0 hidden lg:block ">
         <Circle1 className="w-full h-full " />
       </div>
 
-      <div className="absolute bottom-60 right-0 hidden lg:block md:block">
+      <div className="absolute bottom-60 right-0 hidden lg:block ">
         <Circle2 className="w-full h-full" />
       </div>
 
@@ -66,7 +66,7 @@ export default function Resources() {
               </div>
 
               <div className="ml-14 lg:w-276">
-                <ul className="list-disc list-inside text-[#79C645] space-y-1 sm:space-y-2 text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-spacegrotesk-regular ">
+                <ul className="list-disc list-inside text-[#fffff] space-y-1 sm:space-y-2 text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-spacegrotesk-regular ">
                   {section.links.map((link, i) => (
                     <li key={i} className="leading-none">
                       <a

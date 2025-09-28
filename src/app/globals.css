@@ -2,7 +2,8 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
+
 }
 
 @theme inline {
@@ -29,24 +30,44 @@
   --font-spacegrotesk-bold: var(--font-spacegrotesk-bold);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
+  background-image: no-repeat;
   color: var(--foreground);
-  font-family: var(--font-sans); /* default = Geist Sans */
+  min-height: 100vh;
 }
 
+h1 {
+  text-shadow: 0 0 5px #ffffff3d, 0 0 10px #ffffff3d, 0 0 15px #ffffff3d;
+}
+
+p {
+  font-family: var(--font-spacegtk);
+}
+.bg-glow{
+  filter: var(--glow-filter);
+}
+.textbox-bg{
+  background: var(--textbox_bg);
+}
 .gradient-bg {
   background: linear-gradient(
-  to bottom,           /* or whatever direction you want */
+  to bottom,           
   #31216D 0%,
-  #16162D 13%,
+  #16162D 72%,
   #16162D 100%
 );
+}
+.textbox-bg{
+  background:linear-gradient(0deg, #29296230, #13122837);
+}
+.bg-glow{
+  filter : drop-shadow(0 0 5px #ffffff1c) drop-shadow(0 0 10px #ffffff1c);
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import TextBox from '@/core/layout/TextBox'
 import Mainbutton from '@/core/layout/Mainbutton'
+import Image from 'next/image'
 
 function HeroPage() {
   return (
@@ -12,19 +13,19 @@ function HeroPage() {
 
         <div className="text-subtitle text-center text-lg sm:text-2xl font-orbitron-regular ">Presented By</div>
         
-        <img src="/svg/ddc_logo.svg" alt="Deer Logo" className="h-20 sm:h-22" />
+        <Image src="/svg/ddc_logo.svg" alt="Deer Logo" className="h-20 sm:h-22" width={140} height={100} />
 
         <div className="font-bold text-center text-white text-xl sm:text-3xl font-spacegrotesk-regular">Hacktoberfest Registration is Open Now !</div>
 
-        <Mainbutton children="REGISTER"/>
+        <Mainbutton>Register Now</Mainbutton>
       </div>
 
       <TextBox
         title="Deertober25"
         description={
           <div>
-            <p>This year marks the 8th anniversary of DDC, and we're calling on your support!</p>
-            <p>Whether it's your first time participating or you have previously participated, it's almost time to hack out four pristine pull /merge requests as we continue our month of support for open source.</p>
+            <p>This year marks the 8th anniversary of DDC, and we&aposre calling on your support!</p>
+            <p>Whether it&aposs your first time participating or you have previously participated, it&aposs almost time to hack out four pristine pull /merge requests as we continue our month of support for open source.</p>
           </div>
         }
       />

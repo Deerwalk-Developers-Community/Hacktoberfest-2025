@@ -1,4 +1,4 @@
-import Arrow from "../../public/arrow";
+import Arrow from "../../../../public/arrow";
 
 export function PageHeader() {
   return (

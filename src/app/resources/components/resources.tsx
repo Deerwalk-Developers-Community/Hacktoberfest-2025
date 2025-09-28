@@ -1,8 +1,8 @@
-import Alien1 from "../../public/alien1";
-import Alien2 from "../../public/alien2";
-import Alien3 from "../../public/alien3";
-import Circle1 from "../../public/circle1";
-import Circle2 from "../../public/circle2";
+import Alien1 from "../../../../public/alien1";
+import Alien2 from "../../../../public/alien2";
+import Alien3 from "../../../../public/alien3";
+import Circle1 from "../../../../public/circle1";
+import Circle2 from "../../../../public/circle2";
 import { DottedBorder } from "./dotted-border";
 import { PageHeader } from "./page-header";
 
@@ -60,7 +60,7 @@ export default function Resources() {
             <section key={idx} className="">
               <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                 {section.icon}
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-orbitron-regular">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-orbitron-bold">
                   {section.title}
                 </h2>
               </div>

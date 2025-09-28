@@ -1,4 +1,4 @@
-import Resources from "@/components/resources";
+import Resources from "@/app/resources/components/resources";
 
 
 export default function Home() {

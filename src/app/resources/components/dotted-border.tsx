@@ -1,4 +1,4 @@
-import DottedLine from "../../public/dottedline";
+import DottedLine from "../../../../public/dottedline";
 
 export function DottedBorder() {
   return (

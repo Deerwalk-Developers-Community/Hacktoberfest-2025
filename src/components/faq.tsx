@@ -45,19 +45,12 @@ export default function FAQ() {
 
     const [active, setActive] = useState([false, false, false, false, false, false])
 
-    const isActive = active.some(element => element)
-
-    const handleClick = () => {
-        isActive ? setActive([false, false, false, false, false, false]) : setActive([true, true, true, true, true, true])
-    }
 
     return (
         <div className="w-full bg-slate-950 text-white pt-20 sm:px-6 lg:px-8 flex flex-col items-center">
             <div className="w-full flex flex-col items-start">
                 <PageHeader />
                 <Layout
-                    handleClick={handleClick}
-                    isActive={isActive}
                     data={faqs}
                     turn={active}
                     setTurn={setActive}

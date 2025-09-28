@@ -18,10 +18,9 @@ const reqColumns = [
         idx: 2,
         title: "FOLLOW",
         links: [
-            { linkText: "Discord", link: "https://www.discord.com" },
-            { linkText: "LinkedIn", link: "https://www.linkedin.com" },
-            { linkText: "Instagram", link: "https://www.instagram.com" },
-            { linkText: "Email", link: "mailto:example@gmail.com" },
+            { linkText: "LinkedIn", link: " https://www.linkedin.com/company/d-dev-community/posts/?feedView=all" },
+            { linkText: "Instagram", link: "https://www.instagram.com/dwit_ddc/" },
+            { linkText: "Email", link: "mailto:developers.community@deerwalk.edu.np" },
         ],
     },
 

@@ -23,7 +23,7 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
     },
         [contentRef, turn, idx])
 
-    const toggelAccordion = () => {
+    const toggleAccordion = () => {
         let newTurn = [...turn]
         newTurn[idx] = !newTurn[idx]
         setTurn!(newTurn)
@@ -32,7 +32,7 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
     return (
 
         <div
-            onClick={toggelAccordion}
+            onClick={toggleAccordion}
             className="flex flex-col items-center justify-center w-full px-2  lg:text-base">
             <button className={`bg-transparent px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
                 <div className=''>

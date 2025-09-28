@@ -7,14 +7,12 @@ type Props = {
     idx: number
 }
 interface LayoutProps {
-    handleClick: React.MouseEventHandler<HTMLButtonElement>,
-    isActive: any,
     turn: boolean[],
     setTurn: Dispatch<SetStateAction<boolean[]>>,
     data: Props[],
 }
 
-const Layout = ({ handleClick, isActive, turn, setTurn, data }: LayoutProps) => {
+const Layout = ({ turn, setTurn, data }: LayoutProps) => {
     return (
         <div className="max-w-7xl mx-auto flex flex-col gap-14 w-full">
             {data.map((element, i) => (

@@ -3,8 +3,6 @@ import React from "react";
 const Arrow = ({ className }: { className?: string }) => {
   return (
     <svg
-      width="121"
-      height="77"
       viewBox="0 0 121 77"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

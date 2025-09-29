@@ -12,7 +12,7 @@ interface LayoutProps {
     data: Props[],
 }
 
-const Layout = ({ turn, setTurn, data }: LayoutProps) => {
+const FooterLayout = ({ turn, setTurn, data }: LayoutProps) => {
     return (
         <div className="max-w-7xl mx-auto flex flex-col gap-14 w-full">
             {data.map((element, i) => (
@@ -31,4 +31,4 @@ const Layout = ({ turn, setTurn, data }: LayoutProps) => {
     )
 }
 
-export default Layout
+export default FooterLayout

@@ -1,21 +1,27 @@
-import React from 'react'
-import Mainbutton from './Mainbutton'
+"use client";
+import React from "react";
+import Mainbutton from "./Mainbutton";
 
 function Navbar() {
   return (
-    <>
-      <div className="sticky top-8 flex flex-row h-20 mb-8 justify-center min-w-[280px] sm:justify-between items-center px-16 py-4 rounded-2xl backdrop-blur-md border-1 border-[#ffffff3c] z-999 ">
-   
-        <div className="text-white text-3xl md:text-4xl lg:text-4xl xl:text-5xl font font-bold font-pixelifysans-regular [text-shadow:_3px_7px_0px_rgb(0_0_0_/_0.44)]">
-        DEERTOBER
+    <div className="lg:px-24 px-10 sticky z-999 top-8">
+      <div className="mx-auto w-full ">
+        <div className="flex flex-row h-20 mb-8 justify-center min-w-[280px] sm:justify-between items-center px-16 py-4 rounded-2xl backdrop-blur-md border-1 border-[#ffffff3c]  ">
+          <div className="text-white text-3xl md:text-4xl lg:text-4xl xl:text-5xl font font-bold font-pixelifysans-regular [text-shadow:_3px_7px_0px_rgb(0_0_0_/_0.44)]">
+            DEERTOBER
+          </div>
+          <div className="hidden sm:block cursor-pointer">
+            <Mainbutton
+              text="START"
+              onClick={() => {
+                window.scrollTo({ top: 1200, behavior: "smooth" });
+              }}
+            />
+          </div>
         </div>
-        <div className='hidden sm:block cursor-pointer'>
-          <Mainbutton text = "START"/>
-        </div>
-        
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -28,9 +28,9 @@ const reqColumns = [
 
 const Footer = () => {
     return (
-        <div className="bg-[#30226B] flex flex-col lg:flex-row py-20 px-10 lg:px-20 w-full justify-around">
+        <div className="bg-[#30226B] flex flex-col lg:flex-row py-20 px-10 lg:px-20 w-full justify-around font-spacegrotesk-regular">
             <Card
-                title="HACKTOBER FEST 2025"
+                title="DEERTOBER 2025"
                 body="&copy; 2025 DEERWALK DEVELOPERS COMMUNITY. ALL RIGHTS RESERVED"
                 buttonText="REGISTER"
             />

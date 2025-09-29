@@ -7,7 +7,7 @@ export function PageHeader() {
     <div className="text-white text-xl font-mono">
       <Arrow className="w-16 h-8 md:w-20 md:h-10 lg:w-[121px] lg:h-[77px]" />
     </div>
-    <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-orbitron-regular">
+    <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-orbitron-regular">
       Resources for Beginners
     </h1>
   </div>  

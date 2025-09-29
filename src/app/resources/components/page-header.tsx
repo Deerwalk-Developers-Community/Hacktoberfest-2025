@@ -10,7 +10,7 @@ export function PageHeader() {
     <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-orbitron-regular">
       Resources for Beginners
     </h1>
-  </div>
+  </div>  
 </header>
 
   )

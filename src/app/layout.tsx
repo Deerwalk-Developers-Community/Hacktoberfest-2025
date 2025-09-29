@@ -9,6 +9,14 @@ import {
 import Image from "next/image";
 import pixel from "../../public/svg/pixelcircle.svg";
 
+export const metadata = {
+  title: "Deertober 2025",
+  icons: {
+    icon: "/DDCfavicon.ico",
+  },
+};
+
+
 export default function RootLayout({
   children,
 }: {

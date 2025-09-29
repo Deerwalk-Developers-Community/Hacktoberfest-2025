@@ -1,0 +1,187 @@
+import React from "react";
+
+const Alien3 = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      width="66"
+      height="66"
+      viewBox="0 0 66 66"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <rect x="33.4512" y="32.8" width="10.1823" height="1.9" fill="#9767BB" />
+      <rect
+        x="33.4512"
+        y="23.1001"
+        width="20.1742"
+        height="2.3"
+        fill="#9767BB"
+      />
+      <rect
+        x="33.4512"
+        y="21.8999"
+        width="16.3677"
+        height="1.2"
+        fill="#9767BB"
+      />
+      <rect x="33.4512" y="19.5" width="16.3677" height="2.4" fill="#9767BB" />
+      <rect x="33.4512" y="18.3" width="6.28064" height="1.2" fill="#9767BB" />
+      <rect x="33.4512" y="15.7" width="6.28064" height="2.6" fill="#9767BB" />
+      <path
+        d="M53.625 32.8003H33.4512V25.3999H53.625V32.8003ZM37.0684 27.1997V30.3999H42.6826V27.1997H37.0684Z"
+        fill="#9767BB"
+      />
+      <rect
+        width="10.1823"
+        height="1.9"
+        transform="matrix(-1 0 0 1 33.4512 32.8)"
+        fill="#CC89FF"
+      />
+      <rect
+        width="20.1742"
+        height="2.3"
+        transform="matrix(-1 0 0 1 33.4512 23.1001)"
+        fill="#CC89FF"
+      />
+      <rect
+        width="16.3677"
+        height="1.2"
+        transform="matrix(-1 0 0 1 33.4512 21.8999)"
+        fill="#CC89FF"
+      />
+      <rect
+        width="16.3677"
+        height="2.4"
+        transform="matrix(-1 0 0 1 33.4512 19.5)"
+        fill="#CC89FF"
+      />
+      <rect
+        width="6.28064"
+        height="1.2"
+        transform="matrix(-1 0 0 1 33.4512 18.3)"
+        fill="#CC89FF"
+      />
+      <rect
+        width="6.28064"
+        height="2.6"
+        transform="matrix(-1 0 0 1 33.4512 15.7)"
+        fill="#CC89FF"
+      />
+      <path
+        d="M33.4521 25.3999V32.8003H13.2783V25.3999H33.4521ZM24.2207 30.3999H29.8359V27.1997H24.2207V30.3999Z"
+        fill="#CC89FF"
+      />
+      <rect x="23.2695" y="34.7" width="7.51774" height="3" fill="#CC89FF" />
+      <rect x="20.6055" y="37.7" width="6.56613" height="2.2" fill="#CC89FF" />
+      <rect
+        x="20.6055"
+        y="39.8999"
+        width="1.90323"
+        height="1.4"
+        fill="#CC89FF"
+      />
+      <rect
+        x="17.5596"
+        y="41.2998"
+        width="4.94839"
+        height="2.2"
+        fill="#CC89FF"
+      />
+      <rect
+        x="17.5596"
+        y="43.5002"
+        width="8.75484"
+        height="2.9"
+        fill="#CC89FF"
+      />
+      <rect x="20.2246" y="46.3999" width="6.09032" height="1.9" fill="white" />
+      <rect x="22.5078" y="39.8999" width="4.6629" height="1.4" fill="white" />
+      <rect x="29.4551" y="39.8999" width="3.99677" height="1.4" fill="white" />
+      <rect x="29.4551" y="37.7" width="3.99677" height="2.2" fill="#CC89FF" />
+      <rect
+        width="7.51774"
+        height="3"
+        transform="matrix(-1 0 0 1 43.6338 34.7)"
+        fill="#9767BB"
+      />
+      <rect
+        width="6.56613"
+        height="2.2"
+        transform="matrix(-1 0 0 1 46.2988 37.7)"
+        fill="#9767BB"
+      />
+      <rect
+        width="1.90322"
+        height="1.4"
+        transform="matrix(-1 0 0 1 46.2988 39.8999)"
+        fill="#9767BB"
+      />
+      <rect
+        width="4.94839"
+        height="2.2"
+        transform="matrix(-1 0 0 1 49.3438 41.2998)"
+        fill="#9767BB"
+      />
+      <rect
+        width="8.75484"
+        height="2.9"
+        transform="matrix(-1 0 0 1 49.3438 43.5002)"
+        fill="#9767BB"
+      />
+      <rect
+        width="6.09032"
+        height="1.9"
+        transform="matrix(-1 0 0 1 46.6787 46.3999)"
+        fill="white"
+      />
+      <rect
+        width="4.6629"
+        height="1.4"
+        transform="matrix(-1 0 0 1 44.3955 39.8999)"
+        fill="white"
+      />
+      <rect
+        width="3.99677"
+        height="1.4"
+        transform="matrix(-1 0 0 1 37.4482 39.8999)"
+        fill="white"
+      />
+      <rect
+        width="3.99677"
+        height="2.2"
+        transform="matrix(-1 0 0 1 37.4482 37.7)"
+        fill="#9767BB"
+      />
+      <rect
+        opacity="0.2"
+        x="1.51202"
+        y="0.512024"
+        width="62.976"
+        height="62.976"
+        fill="url(#paint0_linear_2265_15347)"
+        stroke="white"
+        strokeWidth="1.02405"
+      />
+      <path d="M64.999 8V1L57.999 1" stroke="white" strokeWidth="1.5" />
+      <path d="M65 58V65H58" stroke="white" strokeWidth="1.5" />
+      <path d="M1 8V1L8 1" stroke="white" strokeWidth="1.5" />
+      <path d="M1.00098 58V65H8.00098" stroke="white" strokeWidth="1.5" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2265_15347"
+          x1="1"
+          y1="32"
+          x2="65"
+          y2="32"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1D1D3E" />
+          <stop offset="1" stopColor="#7979AC" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export default Alien3;

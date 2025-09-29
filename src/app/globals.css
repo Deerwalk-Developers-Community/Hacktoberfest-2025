@@ -51,17 +51,11 @@ h1 {
 p {
   font-family: var(--font-spacegtk);
 }
-.bg-glow{
-  filter: var(--glow-filter);
-}
-.textbox-bg{
-  background: var(--textbox_bg);
-}
 .gradient-bg {
   background: linear-gradient(
   to bottom,           
   #31216D 0%,
-  #16162D 72%,
+  #16162D 25%,
   #16162D 100%
 );
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import DottedLine from "../../public/dottedline"
+import DottedLine from "../../../../public/dottedline"
 import Link from "next/link"
 
 type LinkItem = {

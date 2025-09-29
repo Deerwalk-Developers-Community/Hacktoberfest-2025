@@ -1,4 +1,4 @@
-import React, { Dispatch, ReactEventHandler, SetStateAction } from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 import Accordion from './accordion'
 
 type Props = {

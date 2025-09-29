@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React, { Dispatch, SetStateAction, useEffect, useRef } from 'react'
-import down from "../../public/arrow-down.svg"
-import up from "../../public/arrow-up.svg"
+import down from "../../../../public/arrow-down.svg"
+import up from "../../../../public/arrow-up.svg"
 
 type Props = {
     question: string,
@@ -24,7 +24,7 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
         [contentRef, turn, idx])
 
     const toggleAccordion = () => {
-        let newTurn = [...turn]
+        const newTurn = [...turn]
         newTurn[idx] = !newTurn[idx]
         setTurn!(newTurn)
 
@@ -38,7 +38,7 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
                 <div className=''>
 
                     <div className="flex items-center justify-between text-left gap-4">
-                        <span className="lg:font-semibold lg:text-4xl pb-3 ml-2 text-3xl font-bold">
+                        <span className="lg:font-semibold lg:text-4xl pb-3 ml-2 text-3xl font-orbitron-regular">
                             {question}
                         </span>
                         <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center">
@@ -50,7 +50,7 @@ const Accordion = ({ question, answer, turn, setTurn, idx }: Props) => {
                         </div>
                     </div>
                     <div ref={contentRef} className="mx-4 overflow-hidden text-left transition-all duration-500 h-full">
-                        <p className='py-1 leading-normal text-justify whitespace-pre-line text-xl lg:text-2xl'>
+                        <p className='py-1 leading-normal text-justify whitespace-pre-line text-xl lg:text-2xl font-spacegrotesk-regular'>
                             {answer}
                         </p>
 

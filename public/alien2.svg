@@ -69,15 +69,15 @@
 <rect width="3.71981" height="3.98873" transform="matrix(-1 0 0 1 58.2773 42.0146)" fill="#8B49BC"/>
 <rect x="21.0791" y="38.0259" width="3.71981" height="3.98873" fill="#9767BB"/>
 <rect width="3.71981" height="3.98873" transform="matrix(-1 0 0 1 58.2773 38.0259)" fill="#8B49BC"/>
-<rect opacity="0.15" x="8.51202" y="11.512" width="62.976" height="62.976" fill="url(#paint0_linear_2262_13760)" stroke="white" stroke-width="1.02405"/>
-<path d="M71.998 18V11L64.998 11" stroke="white" stroke-width="1.5"/>
-<path d="M71.999 68V75H64.999" stroke="white" stroke-width="1.5"/>
-<path d="M7.99902 18V11L14.999 11" stroke="white" stroke-width="1.5"/>
-<path d="M8 68V75H15" stroke="white" stroke-width="1.5"/>
+<rect opacity="0.15" x="8.51202" y="11.512" width="62.976" height="62.976" fill="url(#paint0_linear_2262_13760)" stroke="white" strokeWidth="1.02405"/>
+<path d="M71.998 18V11L64.998 11" stroke="white" strokeWidth="1.5"/>
+<path d="M71.999 68V75H64.999" stroke="white" strokeWidth="1.5"/>
+<path d="M7.99902 18V11L14.999 11" stroke="white" strokeWidth="1.5"/>
+<path d="M8 68V75H15" stroke="white" strokeWidth="1.5"/>
 <defs>
 <linearGradient id="paint0_linear_2262_13760" x1="8" y1="43" x2="72" y2="43" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1D1D3E"/>
-<stop offset="1" stop-color="#7979AC"/>
+<stop stopColor="#1D1D3E"/>
+<stop offset="1" stopColor="#7979AC"/>
 </linearGradient>
 </defs>
 </svg>

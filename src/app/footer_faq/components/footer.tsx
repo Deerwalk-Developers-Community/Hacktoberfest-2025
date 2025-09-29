@@ -31,10 +31,10 @@ const Footer = () => {
         <div className="bg-[#30226B] flex flex-col lg:flex-row py-20 px-10 lg:px-20 w-full justify-around">
             <Card
                 title="HACKTOBER FEST 2025"
-                body="&copy; 2024 DEERWALK DEVELOPERS COMMUNITY. ALL RIGHTS RESERVED"
+                body="&copy; 2025 DEERWALK DEVELOPERS COMMUNITY. ALL RIGHTS RESERVED"
                 buttonText="REGISTER"
             />
-            <div className="flex flex-col lg:flex-row md:flex-row ms-10 lg:ms-60 lg:me-40 mt-10 lg:mt-10 lg:px-20">
+            <div className="flex flex-col lg:flex-row md:flex-row ms-10 lg:ms-60 lg:me-40 mt-10 lg:mt-10 lg:px-20 font-spacegrotesk-regular">
                 {reqColumns.map((item, i) => (
                     <ListLayout key={i} list={item} />
                 ))}

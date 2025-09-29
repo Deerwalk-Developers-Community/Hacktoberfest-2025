@@ -1,12 +1,11 @@
 "use client";
 import Image from 'next/image';
-import Arrow from "../../public/arrow";
 
 import { useState } from "react";
 import { PageHeader } from "./faq-header";
 
 import Layout from "./layout";
-import ufo from "../../public/ufo.svg"
+import ufo from "../../../../public/ufo.svg"
 
 const faqs = [
     {
@@ -47,7 +46,7 @@ export default function FAQ() {
 
 
     return (
-        <div className="w-full bg-slate-950 text-white pt-20 sm:px-6 lg:px-8 flex flex-col items-center">
+        <div className="w-full text-white pt-20 sm:px-6 lg:px-8 flex flex-col items-center">
             <div className="w-full flex flex-col items-start">
                 <PageHeader />
                 <Layout
@@ -58,7 +57,7 @@ export default function FAQ() {
             </div>
 
             <div className="pt-32 flex lg:flex-row justify-between items-end w-full px-10 lg:px-60">
-                <span className="text-[#79C645] text-xl sm:text-2xl lg:text-2xl font-semibold mb-4 lg:mb-0">
+                <span className="text-white text-xl sm:text-2xl lg:text-2xl font-pixelifysans-regular mb-4 lg:mb-0">
                     #DEERTOBER2025
                 </span>
                 <Image src={ufo} alt="" width={80} height={80} className="lg:w-24 lg:h-24 w-20 h-20" />

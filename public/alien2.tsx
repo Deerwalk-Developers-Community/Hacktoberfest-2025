@@ -480,12 +480,12 @@ const Alien2 = ({ className }: { className?: string }) => {
         height="62.976"
         fill="url(#paint0_linear_2262_13760)"
         stroke="white"
-        stroke-width="1.02405"
+        strokeWidth="1.02405"
       />
-      <path d="M71.998 18V11L64.998 11" stroke="white" stroke-width="1.5" />
-      <path d="M71.999 68V75H64.999" stroke="white" stroke-width="1.5" />
-      <path d="M7.99902 18V11L14.999 11" stroke="white" stroke-width="1.5" />
-      <path d="M8 68V75H15" stroke="white" stroke-width="1.5" />
+      <path d="M71.998 18V11L64.998 11" stroke="white" strokeWidth="1.5" />
+      <path d="M71.999 68V75H64.999" stroke="white" strokeWidth="1.5" />
+      <path d="M7.99902 18V11L14.999 11" stroke="white" strokeWidth="1.5" />
+      <path d="M8 68V75H15" stroke="white" strokeWidth="1.5" />
       <defs>
         <linearGradient
           id="paint0_linear_2262_13760"
@@ -495,8 +495,8 @@ const Alien2 = ({ className }: { className?: string }) => {
           y2="43"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1D1D3E" />
-          <stop offset="1" stop-color="#7979AC" />
+          <stop stopColor="#1D1D3E" />
+          <stop offset="1" stopColor="#7979AC" />
         </linearGradient>
       </defs>
     </svg>

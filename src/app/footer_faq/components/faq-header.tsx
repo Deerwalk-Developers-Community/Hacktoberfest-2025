@@ -12,7 +12,7 @@ export function PageHeader() {
                     className="w-[85px] h-[45px]"
                 />
             </div>
-            <h1 className="lg:text-6xl text-5xl font-medium text-[#79C645]">
+            <h1 className="lg:text-6xl text-5xl font-orbitron-regular text-white">
                 FAQs
             </h1>
         </div>

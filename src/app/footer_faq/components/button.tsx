@@ -2,8 +2,8 @@
 
 import React from 'react'
 import Image from 'next/image'
-import buttonBorder from '../../public/svg/Buttonborder.svg'
-import pixelarrow from '../../public/svg/pixelarrow.svg'
+import buttonBorder from '../../../../public/svg/Buttonborder.svg'
+import pixelarrow from '../../../../public/svg/pixelarrow.svg'
 
 interface NavbuttonProps {
     children: React.ReactNode;
@@ -23,7 +23,7 @@ function Button({ children, onClick }: NavbuttonProps) {
             />
 
             <div className='inline-flex items-center justify-between w-40 px-2 py-4'>
-                <span className="z-10 text-white ps-2 text-xl">
+                <span className="z-10 text-white ps-2 text-x font-pixelifysans-regular">
                     {children}
                 </span>
 

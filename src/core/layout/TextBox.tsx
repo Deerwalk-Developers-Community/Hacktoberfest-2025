@@ -31,7 +31,7 @@ function TextBox({ title, description }: TextBoxProps) {
             width={83}
             height={83}
         />
-        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-orbitron-regular'>{title}</h1>
+        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-orbitron-regular text-left'>{title}</h1>
         <div className='text-lg font-spacegrotesk-regular'>
             {description}
         </div>

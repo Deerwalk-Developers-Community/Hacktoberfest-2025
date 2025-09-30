@@ -23,16 +23,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body
         className={`${orbitronRegular.variable} ${orbitronBold.variable}  ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable}  overflow-x-hidden gradient-bg relative`}
       >
 
           <Navbar />
           <Image className="hidden md:block absolute -top-20 -left-80" src={pixel} alt="decoration" width={800} height={500} />
-          <Image className="hidden md:block absolute top-80 -right-80  " src={pixel} alt="decoration" width={800} height={500} />
-          <Image className="hidden md:block absolute top-360 -left-160  " src={pixel} alt="decoration" width={1000} height={500} />
-          <Image className="hidden md:block absolute top-560 -right-80  " src={pixel} alt="decoration" width={800} height={500} />
+          <Image className="hidden md:block absolute top-80 -right-80 " src={pixel} alt="decoration" width={800} height={500} />
+          <Image className="hidden md:block absolute top-360 -left-160 " src={pixel} alt="decoration" width={1000} height={500} />
+          <Image className="hidden md:block absolute top-560 -right-80 " src={pixel} alt="decoration" width={800} height={500} />
 
           {/* <div className="absolute top-0 left-0 hidden lg:block ">
             <Circle1 className="w-full h-full " />

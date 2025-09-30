@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${orbitronRegular.variable} ${orbitronBold.variable}  ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable} gradient-bg relative`}
+        className={`${orbitronRegular.variable} ${orbitronBold.variable}  ${pixelifySansRegular.variable} ${spaceGroteskRegular.variable} gradient-bg relative overflow-x-hidden`}
       >
         <Navbar />
         <Image

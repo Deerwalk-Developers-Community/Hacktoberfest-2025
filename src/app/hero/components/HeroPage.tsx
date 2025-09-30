@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import TextBox from "@/core/layout/TextBox";
 import Mainbutton from "@/core/layout/Mainbutton";
@@ -17,19 +17,37 @@ function HeroPage() {
           Presented By
         </div>
 
-        <Image
-          src="/svg/ddc_logo.svg"
-          alt="Deer Logo"
-          className="h-20 sm:h-22"
-          width={140}
-          height={100}
-        />
-
-        <div className="text-center text-white text-xl sm:text-3xl font-spacegrotesk-regular">
-          Hacktoberfest Registration is Open Now 
+        <div className="flex lg:flex-row flex-col gap-5 items-center">
+          <Image
+            src="/svg/ddc_logo.svg"
+            alt="Deer Logo"
+            className="h-20 sm:h-22"
+            width={140}
+            height={100}
+          />
+          <p className="font-orbitron-regular text-3xl">X</p>
+          <Image
+            src="/mlh-white.svg"
+            alt="MLH Logo"
+            className="h-20 sm:h-22"
+            width={140}
+            height={100}
+          />
         </div>
 
-        <Mainbutton text="REGISTER" onClick={() => {window.open("https://events.mlh.io/events/13019-deertober-2025?_gl=1*15jokgj*_ga*MTQ2MjUyNzI5MC4xNzU4MjYzNjY4*_ga_E5KT6TC4TK*czE3NTkxNTg3MTkkbzckZzEkdDE3NTkxNTg3NTkkajIwJGwwJGgw", "_blank");}} />
+        <div className="text-center text-white text-xl sm:text-3xl font-spacegrotesk-regular">
+          Hacktoberfest Registration is Open Now
+        </div>
+
+        <Mainbutton
+          text="REGISTER"
+          onClick={() => {
+            window.open(
+              "https://events.mlh.io/events/13019-deertober-2025?_gl=1*15jokgj*_ga*MTQ2MjUyNzI5MC4xNzU4MjYzNjY4*_ga_E5KT6TC4TK*czE3NTkxNTg3MTkkbzckZzEkdDE3NTkxNTg3NTkkajIwJGwwJGgw",
+              "_blank"
+            );
+          }}
+        />
       </div>
 
       <TextBox

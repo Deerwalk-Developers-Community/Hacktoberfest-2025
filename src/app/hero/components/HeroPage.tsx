@@ -17,7 +17,7 @@ function HeroPage() {
           Presented By
         </div>
 
-        <div className="flex lg:flex-row flex-col gap-5 items-center">
+        <div className="flex lg:flex-row flex-col gap-5 items-center font-pixelifysans-regular">
           <Image
             src="/svg/ddc_logo.svg"
             alt="Deer Logo"
@@ -25,7 +25,7 @@ function HeroPage() {
             width={140}
             height={100}
           />
-          <p className="font-orbitron-regular text-3xl">X</p>
+          <p className="text-4xl">x</p>
           <Image
             src="/mlh-white.svg"
             alt="MLH Logo"

@@ -8,7 +8,7 @@ function Participating() {
           description ={
             <>
               <p>Here&apos;s what you need to know to participate and complete Hacktoberfest:</p>
-              <li>Register anytime between <strong>September 23and October 31</strong></li>
+              <li>Register anytime between <strong>September 23 and October 31</strong></li>
               <li>Pull/merge requests can be made in any GitHub or GitLab hosted project that&apos;s participating in Hacktoberfest(look for the “hacktoberfest” topic).
               </li>
               <li>Aim to submit <strong>4 High-quality pull/merge</strong> requests between <strong>October 1 and October 31</strong>, with project maintainers accepting your pull/merge requests for them to count toward your total.</li>
